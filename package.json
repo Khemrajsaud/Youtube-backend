@@ -5,7 +5,7 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "jabascript",
@@ -14,6 +14,10 @@
   "author": "\"khemraj saud\"",
   "license": "ISC",
   "dependencies": {
-    "nodemon": "^3.1.9"
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.10.1",
+    "nodemon": "^3.1.9",
+    "prettier": "^3.5.1"
   }
 }
